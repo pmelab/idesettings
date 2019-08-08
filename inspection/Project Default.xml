@@ -1,0 +1,116 @@
+<profile version="1.0">
+  <option name="myName" value="Project Default" />
+  <inspection_tool class="AnnotationMissingUseInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CheckDtdRefs" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CheckNodeTest" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CheckTagEmptyBody" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CheckXmlFileWithXercesValidator" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="ComposeUnknownKeys" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="ComposeUnknownValues" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="ComposerJsonSchema" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssFloatPxLength" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidAtRule" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidCharsetRule" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidElement" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidFunction" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidHtmlTagReference" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidImport" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidMediaFeature" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidPropertyValue" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssInvalidPseudoSelector" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssMissingComma" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssNegativeValue" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssNoGenericFontName" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssOptimizeSimilarProperties" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssOverwrittenProperties" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssRedundantUnit" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssUnitlessNumber" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="CssUnknownProperty" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="myCustomPropertiesEnabled" value="false" />
+    <option name="myIgnoreVendorSpecificProperties" value="false" />
+    <option name="myCustomPropertiesList">
+      <value>
+        <list size="0" />
+      </value>
+    </option>
+  </inspection_tool>
+  <inspection_tool class="CssUnknownTarget" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssUnresolvedClass" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssUnresolvedCustomProperty" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssUnresolvedCustomPropertySet" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="CssUnusedSymbol" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DockerFileAddOrCopySemantic" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="DockerFileArgumentCount" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="DockerFileAssignments" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="DotEnvDuplicateKeyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="FilePath" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="FormTypeAsClassConstant" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="HardwiredNamespacePrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="ImplicitTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="BITS" value="1720" />
+    <option name="FLAG_EXPLICIT_CONVERSION" value="true" />
+    <option name="IGNORE_NODESET_TO_BOOLEAN_VIA_STRING" value="true" />
+  </inspection_tool>
+  <inspection_tool class="IndexZeroUsage" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="Misconfiguration" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="MysqlParsingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="NotInstalledPackage" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PackageVersion" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpAssignmentReplaceableWithOperatorAssignmentInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="PhpAssignmentReplaceableWithPrefixExpressionInspection" enabled="false" level="INFORMATION" enabled_by_default="false" />
+  <inspection_tool class="PhpCSValidationInspection" enabled="true" level="WEAK WARNING" enabled_by_default="true">
+    <option name="CODING_STANDARD" value="Drupal" />
+  </inspection_tool>
+  <inspection_tool class="PhpConstructorStyleInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpGotoIntoLoopInspection" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="PhpIncludeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpInconsistentReturnPointsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpMethodParametersCountMismatchInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpRedundantCatchClauseInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpRedundantClosingTagInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpStatementHasEmptyBodyInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpUndefinedGotoLabelInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpUnhandledExceptionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpUnitUndefinedDataProviderInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpUnnecessaryFullyQualifiedNameInspection" enabled="false" level="WEAK WARNING" enabled_by_default="false" />
+  <inspection_tool class="PhpWrongCatchClausesOrderInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="RedundantTypeConversion" enabled="false" level="WARNING" enabled_by_default="false">
+    <option name="CHECK_ANY" value="false" />
+  </inspection_tool>
+  <inspection_tool class="RepositoryClassInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlAddNotNullColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlAmbiguousColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlAutoIncrementDuplicateInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlCheckUsingColumnsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlConstantConditionInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlDeprecateTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlDerivedTableAliasInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlDialectInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlDropIndexedColumnInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlIdentifierInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlInsertValuesInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlNoDataSourceInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlNullComparisonInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlPostgresqlSelectFromProcedureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlResolveInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlShouldBeInGroupByInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlSideEffectsInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlSignatureInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlStorageInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlTypeInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="SqlUnusedVariableInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="TwigAssetMissingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="TwigAssetsTagMissingInspection" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlDefaultAttributeValue" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlDuplicatedId" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlHighlighting" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlInvalidId" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlPathReference" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XmlUnboundNsPrefix" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlUnusedNamespaceDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XmlWrongRootElement" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XsltDeclarations" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XsltTemplateInvocation" enabled="false" level="ERROR" enabled_by_default="false" />
+  <inspection_tool class="XsltUnusedDeclaration" enabled="false" level="WARNING" enabled_by_default="false" />
+  <inspection_tool class="XsltVariableShadowing" enabled="false" level="WARNING" enabled_by_default="false" />
+</profile>
