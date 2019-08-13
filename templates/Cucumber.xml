@@ -1,24 +1,7 @@
 <templateSet group="Cucumber">
-  <template name="given" value="Given(/^$END$$/, function () {&#10;  &#10;});" description="Cucumber.js &quot;Given&quot; step definition" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="then" value="Then(/^$END$$/, function () {&#10;  &#10;});" description="Cucumber.js &quot;Then&quot; step definition" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="JAVA_SCRIPT" value="true" />
-    </context>
-  </template>
-  <template name="Match" value="&quot;([^&quot;]*)&quot;" description="Quoted string match" toReformat="false" toShortenFQNames="true">
-    <context>
-      <option name="OTHER" value="true" />
-    </context>
-  </template>
-  <template name="step" value="// $STEP$&#10;$STEP_TYPE$(/^$STEP_REGEX$$/, function ($STEP_ARGUMENTS$) {&#10;  $END$&#10;});" description="Create a step definition from the current clipboard" toReformat="false" toShortenFQNames="true">
-    <variable name="STEP" expression="regularExpression(clipboard(), &quot;^[\n\s]*[^\s]+\s(.*?)[\s\n]*$&quot;, &quot;$1&quot;)" defaultValue="" alwaysStopAt="true" />
-    <variable name="STEP_TYPE" expression="regularExpression(clipboard(), &quot;/^[\s\n]*([^\s]+)[.\n]*$&quot;, &quot;$1&quot;)" defaultValue="" alwaysStopAt="true" />
-    <variable name="STEP_REGEX" expression="regularExpression(clipboard(), &quot;\&quot;[^\&quot;]*\&quot;&quot;, &quot;\&quot;([^\&quot;]*)\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
-    <variable name="STEP_ARGUMENTS" expression="" defaultValue="" alwaysStopAt="true" />
+  <template name="step" value="// $SELECTION$&#10;$STEP_TYPE$(/^$STEP_REGEX$$/, function () {&#10;  $END$&#10;});" shortcut="NONE" description="Create a step definition from the current clipboard" toReformat="false" toShortenFQNames="true">
+    <variable name="STEP_TYPE" expression="regularExpression(SELECTION, &quot;^\\s*([^\\s]+).*$&quot;, &quot;$1&quot;)" defaultValue="" alwaysStopAt="true" />
+    <variable name="STEP_REGEX" expression="regularExpression(regularExpression(SELECTION, &quot;^\\s*[^\\s]+\\s(.*?)\\s*$&quot;, &quot;$1&quot;), &quot;\&quot;[^\&quot;]*\&quot;&quot;, &quot;\&quot;([^\&quot;]*)\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
       <option name="JAVA_SCRIPT" value="true" />
     </context>
