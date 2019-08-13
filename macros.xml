@@ -1,0 +1,10 @@
+<application>
+  <component name="ActionMacroManager">
+    <macro name="Create step definitions folder">
+      <action id="RenameElement" />
+      <action id="EditorCopy" />
+      <action id="NewDir" />
+      <action id="EditorPaste" />
+    </macro>
+  </component>
+</application>
