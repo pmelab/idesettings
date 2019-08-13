@@ -1,5 +1,5 @@
 <templateSet group="Cucumber">
-  <template name="step" value="// $SELECTION$&#10;$STEP_TYPE$(/^$STEP_REGEX$$/, function () {&#10;  $END$&#10;});" shortcut="NONE" description="Create a step definition from the current clipboard" toReformat="false" toShortenFQNames="true">
+  <template name="Step definition" value="// $SELECTION$&#10;$STEP_TYPE$(/^$STEP_REGEX$$/, function () {&#10;  $END$&#10;});" shortcut="NONE" description="Create a step definition from the current clipboard" toReformat="false" toShortenFQNames="true">
     <variable name="STEP_TYPE" expression="regularExpression(SELECTION, &quot;^\\s*([^\\s]+).*$&quot;, &quot;$1&quot;)" defaultValue="" alwaysStopAt="true" />
     <variable name="STEP_REGEX" expression="regularExpression(regularExpression(SELECTION, &quot;^\\s*[^\\s]+\\s(.*?)\\s*$&quot;, &quot;$1&quot;), &quot;\&quot;[^\&quot;]*\&quot;&quot;, &quot;\&quot;([^\&quot;]*)\&quot;&quot;)" defaultValue="" alwaysStopAt="true" />
     <context>
