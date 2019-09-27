@@ -15,6 +15,7 @@
       <mapping ext="theme" type="PHP" />
       <mapping ext="install" type="PHP" />
       <mapping pattern=".dork.env" type="PLAIN_TEXT" />
+      <mapping pattern="çu" type="PLAIN_TEXT" />
       <mapping pattern=".travis.Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="createjP" type="PLAIN_TEXT" />
       <mapping pattern=".varnish-secret" type="PLAIN_TEXT" />
