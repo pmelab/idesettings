@@ -28,7 +28,6 @@
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping ext="macro" type="Twig" />
-      <mapping ext="conf" type="nginx file type" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping pattern=".envrc" type="Bash" />
       <mapping pattern="development" type="Bash" />
