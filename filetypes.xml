@@ -26,6 +26,7 @@
       <mapping pattern=".lagoon.env.development" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
+      <mapping pattern="mysql-install-cache" type="Shell Script" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping ext="macro" type="Twig" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
