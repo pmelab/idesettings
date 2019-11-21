@@ -1,6 +1,8 @@
 <application>
   <component name="FileTypeManager" version="17">
     <extensionMap>
+      <mapping pattern="development" type="Bash" />
+      <mapping pattern=".envrc" type="Bash" />
       <mapping pattern=".lagoon/frontend/Dockerfile" type="Dockerfile" />
       <mapping ext="storybook" type="Dockerfile" />
       <mapping pattern="*.js.flow" type="Flow" />
@@ -14,12 +16,12 @@
       <mapping ext="test" type="PHP" />
       <mapping ext="theme" type="PHP" />
       <mapping ext="install" type="PHP" />
+      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern=".dork.env" type="PLAIN_TEXT" />
       <mapping pattern="çu" type="PLAIN_TEXT" />
       <mapping pattern=".travis.Dockerfile" type="PLAIN_TEXT" />
       <mapping pattern="createjP" type="PLAIN_TEXT" />
       <mapping pattern=".varnish-secret" type="PLAIN_TEXT" />
-      <mapping pattern=".env.example" type="PLAIN_TEXT" />
       <mapping pattern="varnish-secret" type="PLAIN_TEXT" />
       <mapping pattern="kcy" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
@@ -31,8 +33,6 @@
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping ext="macro" type="Twig" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
-      <mapping pattern=".envrc" type="Bash" />
-      <mapping pattern="development" type="Bash" />
     </extensionMap>
   </component>
 </application>
