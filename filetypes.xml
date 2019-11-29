@@ -3,9 +3,6 @@
     <extensionMap>
       <mapping pattern=".lagoon/frontend/Dockerfile" type="Dockerfile" />
       <mapping ext="storybook" type="Dockerfile" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="*.js.flow" type="Flow" />
-      <mapping pattern="ignore" type="Git exclude file" />
       <mapping ext="gql" type="GraphQL" />
       <mapping ext="info" type="Ini" />
       <mapping pattern="bin/silverback" type="PHP" />
@@ -15,15 +12,15 @@
       <mapping ext="theme" type="PHP" />
       <mapping ext="install" type="PHP" />
       <mapping pattern=".dork.env" type="PLAIN_TEXT" />
+      <mapping pattern="createjP" type="PLAIN_TEXT" />
       <mapping pattern="çu" type="PLAIN_TEXT" />
       <mapping pattern=".travis.Dockerfile" type="PLAIN_TEXT" />
-      <mapping pattern="createjP" type="PLAIN_TEXT" />
-      <mapping pattern=".varnish-secret" type="PLAIN_TEXT" />
       <mapping pattern=".env.example" type="PLAIN_TEXT" />
+      <mapping pattern=".varnish-secret" type="PLAIN_TEXT" />
+      <mapping pattern=".lagoon.env.development" type="PLAIN_TEXT" />
       <mapping pattern="varnish-secret" type="PLAIN_TEXT" />
       <mapping pattern="kcy" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
-      <mapping pattern=".lagoon.env.development" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="mysql-install-cache" type="Shell Script" />
@@ -33,6 +30,7 @@
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping pattern=".envrc" type="Bash" />
       <mapping pattern="development" type="Bash" />
+      <mapping pattern="ignore" type="Git exclude file" />
     </extensionMap>
   </component>
 </application>
