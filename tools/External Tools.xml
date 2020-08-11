@@ -1,0 +1,9 @@
+<toolSet name="External Tools">
+  <tool name="PHPCBF" showInMainMenu="false" showInEditor="false" showInProject="false" showInSearchPopup="false" disabled="false" useConsole="false" showConsoleOnStdOut="false" showConsoleOnStdErr="false" synchronizeAfterRun="true">
+    <exec>
+      <option name="COMMAND" value="$USER_HOME$/Projects/rasch-backend/vendor/squizlabs/php_codesniffer/bin/phpcbf" />
+      <option name="PARAMETERS" value="--standard=Drupal $FileName$ " />
+      <option name="WORKING_DIRECTORY" value="$FileDir$" />
+    </exec>
+  </tool>
+</toolSet>
