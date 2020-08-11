@@ -9,6 +9,9 @@
     <keyboard-shortcut first-keystroke="down" />
   </action>
   <action id="FileChooser.TogglePathShowing" />
+  <action id="Git.Branches">
+    <keyboard-shortcut first-keystroke="alt b" />
+  </action>
   <action id="GotoAction">
     <keyboard-shortcut first-keystroke="shift meta a" />
     <keyboard-shortcut first-keystroke="meta p" />
