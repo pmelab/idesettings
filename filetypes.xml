@@ -3,7 +3,6 @@
     <extensionMap>
       <mapping pattern=".lagoon/frontend/Dockerfile" type="Dockerfile" />
       <mapping ext="storybook" type="Dockerfile" />
-      <mapping ext="gql" type="GraphQL" />
       <mapping ext="info" type="Ini" />
       <mapping pattern="bin/silverback" type="PHP" />
       <mapping ext="install" type="PHP" />
@@ -28,6 +27,7 @@
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
       <mapping ext="macro" type="Twig" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
+      <mapping ext="gql" type="GraphQL" />
       <mapping pattern=".envrc" type="Bash" />
       <mapping pattern="development" type="Bash" />
       <mapping pattern="ignore" type="Git exclude file" />
