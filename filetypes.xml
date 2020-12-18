@@ -27,6 +27,7 @@
       <mapping pattern="mysql-install-cache" type="Shell Script" />
       <mapping ext="macro" type="Twig" />
       <removed_mapping ext="conf" approved="true" type="SmartyConfig" />
+      <removed_mapping ext="ignore" approved="true" type="IgnoreLang file" />
       <mapping ext="gql" type="GraphQL" />
       <mapping pattern=".envrc" type="Bash" />
       <mapping pattern="development" type="Bash" />
