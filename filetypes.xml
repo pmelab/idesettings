@@ -4,6 +4,7 @@
       <mapping pattern=".lagoon/frontend/Dockerfile" type="Dockerfile" />
       <mapping ext="storybook" type="Dockerfile" />
       <mapping ext="info" type="Ini" />
+      <mapping ext="graphqlconfig" type="JSON" />
       <mapping pattern="bin/silverback" type="PHP" />
       <mapping ext="install" type="PHP" />
       <mapping ext="test" type="PHP" />
