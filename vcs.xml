@@ -14,6 +14,10 @@
           <option name="url" value="http://git.mercedes-benz.io" />
           <option name="userName" value="c-melabphi" />
         </UrlAndUserName>
+        <UrlAndUserName>
+          <option name="url" value="http://git.drupalcode.org" />
+          <option name="userName" value="pmelab" />
+        </UrlAndUserName>
       </list>
     </option>
   </component>
