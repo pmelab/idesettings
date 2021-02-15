@@ -23,6 +23,7 @@
       <mapping ext="webarchive" type="PLAIN_TEXT" />
       <mapping ext="gitkeep" type="PLAIN_TEXT" />
       <mapping pattern="test" type="Shell Script" />
+      <mapping pattern="start" type="Shell Script" />
       <mapping pattern="test-install-cache" type="Shell Script" />
       <mapping pattern="mysql-install-cache" type="Shell Script" />
       <mapping ext="macro" type="Twig" />
