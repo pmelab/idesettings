@@ -1,13 +1,19 @@
 <keymap version="1" name="Default copy" parent="Mac OS X 10.5+">
+  <action id="ActivateCommitToolWindow">
+    <keyboard-shortcut first-keystroke="meta 2" />
+  </action>
+  <action id="ActivateFavoritesToolWindow" />
   <action id="ActivateTerminalToolWindow">
     <keyboard-shortcut first-keystroke="alt f12" />
     <keyboard-shortcut first-keystroke="shift meta x" />
   </action>
   <action id="Diff.FocusOppositePane" />
   <action id="Diff.FocusOppositePaneAndScroll" />
+  <action id="DuplicatesForm.SendToRight" />
   <action id="EditorDown">
     <keyboard-shortcut first-keystroke="down" />
   </action>
+  <action id="FileChooser.GotoProject" />
   <action id="FileChooser.TogglePathShowing" />
   <action id="Git.Branches">
     <keyboard-shortcut first-keystroke="alt b" />
@@ -17,11 +23,6 @@
     <keyboard-shortcut first-keystroke="meta p" />
   </action>
   <action id="NextDiff" />
-  <action id="NextTab">
-    <keyboard-shortcut first-keystroke="shift meta close_bracket" />
-    <keyboard-shortcut first-keystroke="ctrl right" />
-    <keyboard-shortcut first-keystroke="ctrl tab" />
-  </action>
   <action id="ParameterInfo" />
   <action id="PhpListenDebugAction">
     <keyboard-shortcut first-keystroke="alt d" />
@@ -35,6 +36,9 @@
     <keyboard-shortcut first-keystroke="meta alt f8" />
     <mouse-shortcut keystroke="shift alt button1" />
     <keyboard-shortcut first-keystroke="f10" />
+  </action>
+  <action id="RunAnything">
+    <keyboard-shortcut first-keystroke="ctrl tab" />
   </action>
   <action id="ShowNavBar">
     <keyboard-shortcut first-keystroke="meta up" />
