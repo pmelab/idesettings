@@ -1,6 +1,7 @@
 <application>
   <component name="FileTypeManager" version="18">
     <extensionMap>
+      <mapping pattern="_headers" type="AUTO_DETECTED" />
       <mapping pattern=".lagoon/frontend/Dockerfile" type="Dockerfile" />
       <mapping ext="storybook" type="Dockerfile" />
       <mapping ext="info" type="Ini" />
