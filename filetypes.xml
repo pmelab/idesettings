@@ -19,6 +19,7 @@
       <mapping pattern="createjP" type="PLAIN_TEXT" />
       <mapping pattern=".lagoon.env.development" type="PLAIN_TEXT" />
       <mapping pattern="kcy" type="PLAIN_TEXT" />
+      <mapping pattern=".lintstagedrc" type="PLAIN_TEXT" />
       <mapping pattern=".gitkeep" type="PLAIN_TEXT" />
       <mapping pattern=".varnish-secret" type="PLAIN_TEXT" />
       <mapping ext="webarchive" type="PLAIN_TEXT" />
