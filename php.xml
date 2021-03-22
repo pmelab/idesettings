@@ -4,6 +4,7 @@
       <PhpCSConfiguration standards="Drupal;MySource;PEAR;PHPCS;PSR1;PSR2;Squiz;Zend" tool_path="$USER_HOME$/.composer/vendor/squizlabs/php_codesniffer/scripts/phpcs" />
     </phpcs_settings>
   </component>
+  <component name="PhpDebugGeneral" xdebug_resolve_breakpoints="false" />
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="e0a6f334-3208-479e-81d9-db7e3f17ecfe" name="PHP 7.3" home="/usr/local/Cellar/php@7.3/7.3.21/bin/php" debugger_id="php.debugger.XDebug" />
