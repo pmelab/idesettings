@@ -8,7 +8,7 @@
   <component name="PhpInterpreters">
     <interpreters>
       <interpreter id="e0a6f334-3208-479e-81d9-db7e3f17ecfe" name="PHP 7.3" home="/usr/local/Cellar/php@7.3/7.3.21/bin/php" debugger_id="php.debugger.XDebug" />
-      <interpreter id="fad0f8ba-da24-43b5-9168-7514242a3dda" name="PHP 7.4" home="/usr/local/Cellar/php/7.4.9/bin/php" debugger_id="php.debugger.XDebug" />
+      <interpreter id="fad0f8ba-da24-43b5-9168-7514242a3dda" name="PHP 7.4" home="/usr/local/bin/php" debugger_id="php.debugger.XDebug" />
     </interpreters>
   </component>
   <component name="PhpInterpretersPhpInfoCache">
@@ -101,11 +101,7 @@
           <configuration_options>
             <configuration_option name="include_path" value=".:/usr/local/Cellar/php/7.4.9/share/php/pear" />
           </configuration_options>
-          <debuggers>
-            <debugger_info debugger="xdebug" debugger_version="2.9.6">
-              <debug_extensions />
-            </debugger_info>
-          </debuggers>
+          <debuggers />
           <loaded_extensions>
             <extension name="Core" />
             <extension name="FFI" />
@@ -165,7 +161,6 @@
             <extension name="sysvshm" />
             <extension name="tidy" />
             <extension name="tokenizer" />
-            <extension name="xdebug" />
             <extension name="xml" />
             <extension name="xmlreader" />
             <extension name="xmlrpc" />
