@@ -67,5 +67,9 @@
     <keyboard-shortcut first-keystroke="ctrl alt up" />
   </action>
   <action id="Switcher" />
+  <action id="ToggleLineBreakpoint">
+    <keyboard-shortcut first-keystroke="meta f8" />
+    <keyboard-shortcut first-keystroke="shift meta 7" />
+  </action>
   <action id="com.jetbrains.php.framework.FrameworkRunConsoleAction" />
 </keymap>
